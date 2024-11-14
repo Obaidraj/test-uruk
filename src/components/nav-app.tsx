@@ -24,7 +24,7 @@ const NavApp = () => {
         <div> <Breadcrumb>
       <BreadcrumbList>
        {items?.map((item,id)=><>
-       <BreadcrumbItem>
+       <BreadcrumbItem key={id}>
           <BreadcrumbLink href="/">{item}</BreadcrumbLink>
         </BreadcrumbItem>
         {id!==items.length-1&&<BreadcrumbSeparator />}
