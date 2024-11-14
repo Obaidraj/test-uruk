@@ -21,7 +21,7 @@ const sidebarItems = [
 ];
 const AppSidebar = () => {
   return (
-    <div className="flex flex-col w-16 h-[100vh] bg-yellow-700">
+    <div className="flex flex-col w-16  bg-yellow-700">
       <div className="h-16"></div>
       <hr  className="mx-2 bg-black text-black"/>
       <div className="flex flex-col gap-5 mt-2 justify-center ">
